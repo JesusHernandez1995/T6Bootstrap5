@@ -1,0 +1,94 @@
+/* --------------- Generales ------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon-container{
+    margin-right: 10px;
+}
+
+.icon-container.nav{
+    margin-right: 5px;
+    color: white;
+}
+
+.nav-container{
+    background: blue;
+}
+
+.white-link,
+.navbar-brand{
+    color: white !important;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background: #343536;
+}
+
+/* ------------- Clase a añadir desde jQuery --------------- */
+.jquery_nav-link-BlackColor{
+    color: black !important;
+}
+
+/* ----------------------------------------------------------- */
+
+.nav-container .nav-item:hover{
+    background: white;
+}
+
+.dropdown-menu{
+    background: #5f656c;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+.dropdown-menu i{
+    color: white;
+    margin: auto 6px;
+}
+
+.form-control input,
+.btn-search{
+    border: none;
+}
+
+.btn-search{
+    background: white;
+}
+
+.form-control input:focus{
+    outline: none !important;
+}
+
+/* ------------------- Estilos para el primer submenú ----------------- */
+
+.dropdown-submenu.secondary .dropdown-menu {
+    top: 0;
+    left: 102.5%;
+    margin-top: -1px;
+}
+
+/* ------------------- Estilos para el segundo submenú ----------------- */
+
+.dropdown-submenu.third .dropdown-menu {
+    top: 0;
+    left: -102.5%;
+    margin-top: -1px;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	

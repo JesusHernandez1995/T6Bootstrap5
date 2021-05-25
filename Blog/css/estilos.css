@@ -1,0 +1,22 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #1740f9 !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.enlace{
+    text-decoration: none;
+}
+
+.gris{
+    color: #b9b9b9;
+}

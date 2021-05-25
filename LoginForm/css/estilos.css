@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+.white{
+    color: #c8ccca;
+}
+
+.lock-container{
+    font-size: 40px;
+    color: #c8ccca;
+}
+
+.primera-fila{
+    background: #fff;
+}
+
+.segunda-fila{
+    background: #c8ccca;
+}
+
+.login-btn{
+    background: #2df591;
+}
+
+.enlace{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-btn{
+    border: 1px solid white;
+    margin: auto 10px;
+}

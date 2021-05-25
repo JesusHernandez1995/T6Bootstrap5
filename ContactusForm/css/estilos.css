@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    color: #2d8bf5;
+}
+
+.icono{
+    font-size: 25px;
+    color: #2d8bf5;
+}
+
+.formulario > * {
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 467px){
+    .icono{
+        margin-bottom: 10px;
+    }
+}

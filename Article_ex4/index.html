@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Página de noticias y artículos</title>
+</head>
+<body>
+    <!-- Tamaños de columna en Bootstrap 4:
+			Los tamaños de Columna en Bootsrap 4 son:
+			.col 		Extra Pequeño (Extra Small) - Smartphones Vertical		Menos de 544px
+			.col-sm 	Pequeño (Small) - Smartphones Vertical	 				Mas de 544px y Menos de 768px
+			.col-md 	Mediano (Medium) - Tablets 								Mas de 768px y Menos de 992px
+			.col-lg 	Largo (Large) - Computadoras							Mas de 992px y Menos de 1200px
+			.col-xl 	Extra Largo (Extra Large) - Computadoras				Mas de 1200px
+    -->
+    <div class="container my-3">
+        <!-- Header -->
+        <header class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Menú</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Servicios
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        
+                            <ul class="navbar-nav ms-lg-3 mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Usuario</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Mi cuenta</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Body -->
+        <main>
+            <section class="row mt-3 gris">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-5">
+                            <h1 class="card-title">Artículo Destacado de la semana</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Perspiciatis cupiditate fugiat vel qui fugit magnam adipisci dolorum nemo ea 
+                            doloribus possimus, cumque nulla assumenda tenetur ducimus accusamus voluptatum
+                            facere consequuntur, omnis eius repellat? Dolorem natus unde perferendis, 
+                            dignissimos sed ea?.</p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row mt-5">
+                <div class="col col-md-4">
+                    <h2 class="text-center article-title">Título del artículo</h2>
+                    <div class="card-body p-5">
+                        <div class="fondogris"></div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Perspiciatis cupiditate fugiat vel qui fugit magnam adipisci dolorum nemo ea 
+                        doloribus possimus, cumque nulla assumenda tenetur ducimus accusamus voluptatum
+                        facere consequuntur, omnis eius repellat? Dolorem natus unde perferendis, 
+                        dignissimos sed ea?.</p>
+                        <a href="#" class="btn btn btn-success">Leer más</a>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <h2 class="text-center article-title">Título del artículo</h2>
+                    <div class="card-body p-5">
+                        <div class="fondogris"></div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Perspiciatis cupiditate fugiat vel qui fugit magnam adipisci dolorum nemo ea 
+                        doloribus possimus, cumque nulla assumenda tenetur ducimus accusamus voluptatum
+                        facere consequuntur, omnis eius repellat? Dolorem natus unde perferendis, 
+                        dignissimos sed ea?.</p>
+                        <a href="#" class="btn btn btn-success">Leer más</a>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <h2 class="text-center article-title">Título del artículo</h2>
+                    <div class="card-body p-5">
+                        <div class="fondogris"></div>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Perspiciatis cupiditate fugiat vel qui fugit magnam adipisci dolorum nemo ea 
+                        doloribus possimus, cumque nulla assumenda tenetur ducimus accusamus voluptatum
+                        facere consequuntur, omnis eius repellat? Dolorem natus unde perferendis, 
+                        dignissimos sed ea?.</p>
+                        <a href="#" class="btn btn btn-success">Leer más</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

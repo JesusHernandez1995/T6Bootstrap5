@@ -1,0 +1,36 @@
+/* ----------- Estilos generales --------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de la tabla */
+.table{
+    border: 0.8px solid #e7e8e8 !important;
+}
+
+/* Estilos a los iconos de la columna 'acción' */
+tr i {
+    margin-right: 5px;
+}
+
+.blue,
+.green,
+.red{
+    color: white;
+    padding: 10px;
+    margin: auto 0px;
+}
+
+.blue{
+    background: #2972cf;
+}
+
+.green{
+    background: #31cf29;
+}
+
+.red{
+    background: #f92117;
+}
